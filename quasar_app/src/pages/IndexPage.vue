@@ -1,13 +1,16 @@
 <template>
   <q-page class="">
-    <div>
-      <q-card class=" tw-w-96" @click="$router.push('/doraemon')">
+    <div class="tw-p-8">
+      <q-card class=" tw-w-96 ">
         <q-card-section>
-          Doraemon
+          <span class="tw-font-bold tw-text-xl">
+            Doraemon
+          </span>
+          <q-btn @click="$router.push('/doraemon')" color="primary">Let's Go !</q-btn>
         </q-card-section>
       </q-card>
     </div>
-    <span class="tw-text-gray-400 tw-text-lg">Will add something</span>
+    <!-- <span class="tw-text-gray-400 tw-text-lg">Will add something</span> -->
     
   </q-page>
 </template>
