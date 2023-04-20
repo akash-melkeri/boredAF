@@ -1,5 +1,12 @@
 <template>
-  <q-page class="flex flex-center tw-gap-12">
+  <q-page class="">
+    <div>
+      <q-card class=" tw-w-96" @click="$router.push('/doraemon')">
+        <q-card-section>
+          Doraemon
+        </q-card-section>
+      </q-card>
+    </div>
     <span class="tw-text-gray-400 tw-text-lg">Will add something</span>
     
   </q-page>
